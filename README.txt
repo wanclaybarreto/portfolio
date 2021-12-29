@@ -1,0 +1,1 @@
+Layout Kards Styleshout personalizado/remodelado por Wanclay Barreto.

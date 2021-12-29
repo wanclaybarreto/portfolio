@@ -1,0 +1,42 @@
+.portfolio-block {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CCC;
+}
+
+.portfolio-block:first-child {
+    margin-top: 0;
+}
+
+.portfolio-block:last-child {
+    border: none;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+.portfolio-title h2 {
+    color: #0059FF;
+}
+
+.portfolio-img {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-img img {
+    width: 600px;
+    border: 1px solid #000;
+}
+
+.portfolio-description {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .portfolio-img img {
+        width: initial;
+    }
+}
