@@ -1490,7 +1490,6 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1550,6 +1549,11 @@ header .logo a {
 	font-size: 1.5rem;
 	line-height: 1;
 }
+
+.about-content .skill-title {
+	font-weight: bold;
+}
+
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
@@ -1621,6 +1625,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
+	background-color: #FFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
